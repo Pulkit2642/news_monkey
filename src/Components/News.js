@@ -7,8 +7,8 @@ import InfiniteScroll from 'react-infinite-scroll-component'
 
 export default class News extends Component {
 
-    apiKeys=["1093604029da42dd84400d104ab08794","9b2336e80b1a48f3b05acec16f32a63d", "363116de0bcb4684b2df265fd12aeee4"];
-    apiKey=this.apiKeys[2];
+    apiKeys=["9b2336e80b1a48f3b05acec16f32a63d","9b2336e80b1a48f3b05acec16f32a63d", "363116de0bcb4684b2df265fd12aeee4"];
+    apiKey=this.apiKeys[0];
 
     static defaultProps = {
         pageSize: 5,
